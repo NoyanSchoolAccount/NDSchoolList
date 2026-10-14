@@ -6,26 +6,35 @@
     <title>Site</title>
 </head>
 <body>
-    <ol>
-        <li>sıcak içecekler</li>
-        <ol type="I">
-            <li>ç</li>
-            <li>k</li>
-            <ol type="a">
-                <li>tk</li>
-                <li>nc</li>
-            </ol>
-            <li>sç</li>
-        </ol>
-        <li>soğuk içecekler</li>
-        <ol>
-            <li>ms</li>
-            <ul style="list-style-type:square;">
-                <li>v</li>
-                <li>k</li>
-                <li>ş</li>
+    <ul style="list-style-type: disc;">
+        <li>Kitap</li>
+        <ul style="list-style-type: circle;">
+            <li>Edebiyat</li>
+            <ul style="list-style-type: square;">
+                <li>Roman</li>
+                <li>Öykü</li>
+                <li>Şiir</li>
+                <li>Türk Edebiyatı</li>
             </ul>
-        </ol>
-    </ol>
+        </ul>
+        <ul style="list-style-type: circle;">
+            <li>Eiğitim</li>
+            <ul style="list-style-type: square;">
+                <li>Bilgisayar Kitapları</li>
+                <li>Yabancı Dil</li>
+                <li>Sınav Kitapları</li>
+            </ul>
+        </ul>
+        <ul style="list-style-type: circle;">
+            <li>Çocuk</li>
+            <ul style="list-style-type: square;">
+                <li>Masal</li>
+                <li>Boyama</li>
+            </ul>
+        </ul>
+    </ul>
+    <ul style="list-style-type: disc;">
+        <li>Film</li>
+    </ul>
 </body>
 </html>
